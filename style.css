@@ -871,6 +871,33 @@ footer {
   background: var(--glass-hover);
 }
 
+/* ---------- Mobile nav: single scrollable row ---------- */
+@media (max-width: 680px) {
+  .epk-nav-inner {
+    padding: 0.55rem 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.3rem;
+  }
+  .epk-nav-links {
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .epk-nav-links::-webkit-scrollbar { display: none; }
+  .epk-nav-links a { white-space: nowrap; font-size: 0.84rem; }
+  .epk-nav-links .lang-toggle {
+    flex: none;
+    margin-left: auto;
+    position: sticky;
+    right: 0;
+    background: rgba(11, 12, 15, 0.9);
+  }
+}
+
 /* ---------- English page extras ---------- */
 .track-row .title-ko {
   margin-left: 0.5rem;
