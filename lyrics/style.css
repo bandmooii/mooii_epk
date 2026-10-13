@@ -20,10 +20,31 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Top link back to EPK */
+.top-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+.epk-link {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.epk-link:hover {
+  color: #ffffff;
+}
+
 /* Header & Navigation Styling */
 header {
   position: relative;
-  padding: 3rem 1.5rem 2rem 1.5rem;
+  padding: 2rem 1.5rem 2rem 1.5rem;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -62,61 +83,23 @@ header h1 {
   animation: fadeIn 0.8s ease-in-out;
 }
 
-/* Instagram Logo Animation */
-.insta-link {
-  margin-left: 1.2rem;
+/* Social Icons (same look as EPK) */
+.social-icons {
+  margin-left: 1.4rem;
   display: flex;
+  gap: 1rem;
   align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  text-decoration: none;
-  z-index: 10;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.insta-img {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  object-fit: cover;
-  display: block;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: border-color 0.3s;
-}
-
-.insta-link:hover {
-  transform: scale(1.15) rotate(-8deg);
-}
-
-.insta-link:hover .insta-img {
-  border-color: rgba(255, 255, 255, 0.35);
-}
-
-.youtube-link {
-  margin-left: 0.8rem;
+.social-icons a {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.45rem 1rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: #f8fafc;
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-  letter-spacing: 0.04em;
-  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
-  font-family: inherit;
-  white-space: nowrap;
+  color: #94a3b8;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.youtube-link:hover {
-  background: rgba(255, 255, 255, 0.18);
-  color: #ffffff;
-  transform: translateY(-1px);
+.social-icons a:hover {
+  color: #f8fafc;
+  transform: translateY(-2px);
 }
 
 /* Language Switcher */
@@ -407,7 +390,7 @@ main {
 }
 
 /* Lyrics Section Styling */
-.lyrics-section {
+.lyrics-section + .theme-section {
   border-top: 1px solid rgba(255, 255, 255, 0.04);
   padding-top: 1.6rem;
   margin-top: 1.6rem;
@@ -454,6 +437,21 @@ footer {
   margin: 4rem 0 3rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.03);
   padding-top: 2rem;
+}
+
+.footer-contact {
+  color: #94a3b8;
+  margin: 0 0 1rem;
+}
+
+.footer-contact a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .footer-note {
@@ -518,15 +516,8 @@ footer {
     line-height: 1.75;
   }
 
-  .insta-link {
-    width: 36px;
-    height: 36px;
+  .social-icons {
     margin-left: 0.8rem;
-  }
-
-  .insta-img {
-    width: 30px;
-    height: 30px;
-    border-radius: 8px;
+    gap: 0.7rem;
   }
 }

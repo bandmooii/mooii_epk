@@ -23,16 +23,16 @@ const lyricsData = [
       },
     },
     theme: {
-      ko: "여름의 더위와 신림동 칼부림 사건을 주제로 만들었습니다.",
-      en: "Created under the theme of summer heat and the Sillim-dong stabbing rampage.",
-      es: "Creado bajo el tema del calor del verano y el apuñalamiento masivo de Sillim-dong.",
-      ja: "夏の暑さと新林洞通り魔事件를 주제로 만들었습니다.",
+      ko: "여름의 더위와 서현역 칼부림 사건을 주제로 만들었습니다.",
+      en: "Created under the theme of summer heat and the Seohyeon Station stabbing rampage.",
+      es: "Creado bajo el tema del calor del verano y el apuñalamiento masivo de la estación de Seohyeon.",
+      ja: "夏の暑さとソヒョン駅通り魔事件をテーマに作りました。",
     },
     reference: {
-      ko: "신림동 칼부림사건, pixies - debaser, pavement - elevate me later",
-      en: "Sillim-dong stabbing rampage, pixies - debaser, pavement - elevate me later",
-      es: "Apuñalamiento de Sillim-dong, pixies - debaser, pavement - elevate me later",
-      ja: "新林洞通り魔事件, pixies - debaser, pavement - elevate me later",
+      ko: "서현역 칼부림사건, pixies - debaser, pavement - elevate me later",
+      en: "Seohyeon Station stabbing rampage, pixies - debaser, pavement - elevate me later",
+      es: "Apuñalamiento en la estación de Seohyeon, pixies - debaser, pavement - elevate me later",
+      ja: "ソヒョン駅通り魔事件, pixies - debaser, pavement - elevate me later",
     },
     lyrics: {
       ko: `불을 붙혀놓고\n태워 버리려 했었지\n즐거운 모습들이\n배알이 너무 꼴려서\n\n날 좀 봐달라고\n목구멍 끝까지 차올랐어\n계속 이럴거면\n나도 가만있지 않을거야\n\n전부 겁을 먹게 만들거야\n전부 겁을 먹게 만들거야\n전부 겁을 먹게 만들거야\n전부 겁을 먹게 만들거야\n전부 겁을 먹게 만들거야\n전부 겁을 먹게 만들거야`,
@@ -64,10 +64,10 @@ const lyricsData = [
       },
     },
     theme: {
-      ko: '다큐멘터리 "핑크팰리스"를 주제로 한 가사입니다. 다큐멘터리의 주제는 장애인의 성욕입니다.',
-      en: "Lyrics themed around the documentary 'Pink Palace', which focuses on the sexual desire of disabled people.",
-      es: "Letras inspiradas en el documental 'Pink Palace', cuyo tema es el deseo sexual de las personas con discapacidad.",
-      ja: 'ドキュメンタリー "ピンクパレス"를 주제로 한 가사입니다. 다큐멘터리의 주제는 장애인의 성욕입니다.',
+      ko: '다큐멘터리 "핑크팰리스"를 주제로 한 가사입니다. 다큐멘터리의 주제는 장애인 성 문제입니다.',
+      en: "Lyrics themed around the documentary 'Pink Palace', which deals with the issue of sexuality among disabled people.",
+      es: "Letras inspiradas en el documental 'Pink Palace', cuyo tema es la problemática de la sexualidad de las personas con discapacidad.",
+      ja: 'ドキュメンタリー「ピンクパレス」をテーマにした歌詞です。ドキュメンタリーのテーマは障害者の性の問題です。',
     },
     reference: {
       ko: "다큐멘터리 핑크팰리스, Michael Jackson - black or white, The Strokes - The Modern Age",
@@ -76,10 +76,10 @@ const lyricsData = [
       ja: "다큐멘터리 핑크팰리스, Michael Jackson - black or white, The Strokes - The Modern Age",
     },
     lyrics: {
-      ko: `당신들의 나신을 볼 수 없었지\n성은 빨간 곳에서 무너져갔지\n가장 추하게\n\n사람들은 축복을 전혀 모르고\n헛된 영원한 삶을 영생을 믿네\n말도 안되는\n\n난 아직 죽기 이르다고\n마지못해 소리치지만 진심은 아냐\n\n모두가 불편해하는데\n어떻게 견딜수 있겠어\n위선적이야\n\n하얀 성의 공주는 기도를 했네\n그녀가 고민할때 죽어야 했네\n살이 썩은 왕자는 갇혀있었네\n그가 나타났을때 모두 피했네\n경멸하면서\n\n*"자기네들은 사지가 멀쩡하니까"*`,
-      en: `I could never see, your naked bodies\nThe castle crumbled down, from the reddest place\nSo gracelessly\n\nPeople know nothing about the blessings they've been given\nThey believe in idle eternal life, everlasting for them\nIt doesn't make any sense\n\nI'm screaming I can’t die just yet, only because I guess that's what I must do\nit's not what I really want\nIf no one can even stand me, how am I even supposed to bear\nIt's so hypocritical\n\nThe princess inside a white castle she prayed\nAs she started to doubt, he had to face death\nThe prince with rotting skin, hidden behind his cage\nWhen he came in their view, they all ran away\nDespising and loathing him\n\n*"Because their own bodies are just fine"*`,
-      es: `Nunca podía ver, sus cuerpos desnudos \nEl castillo se desmenuzó, desde el lugar más rojo\nDesagradablemente\n\nLa gente no sabe nada, sobre sus bendiciones\nCreen en vacías vidas perpetuas, eternas también\nNo tiene ningún sentido\n\nGrito que ya no puedo morir, porque supongo que eso debo hacer\nPero no es lo que realmente quiero\nSi nadie puede soportarme, como debo aguantar\nEs tan hipocrita\n\nLa princesa en el castillo blanco, rezó\nCuando empezó dudar, él tuvo que morir\nEl príncipe con la piel podrida, en su jaula detenido\nCuando apareció en la vista, todo el mundo huyó\nDespreciandolo\n\n*"Porque a ellos no les falta ningún miembro"*`,
-      ja: `貴方らの裸身は見えなかった\n性は赤い場所から崩れていった\n最も醜く\n\n人々は祝福を全く知らず\n虚しい永遠の命を、永生を信じている\nあり得ない\n\n俺はまだ死ぬには早いと、嫌々叫んでみても\n本心じゃない\n皆が不快に思うのに、どうやって耐えられよう\n偽善的だ\n\n白い城の姫は祈っていた\n彼女が悩むとき、彼は死ぬべきだった\n肉の腐った王子は閉じ込められていた\n彼が現れたとき、皆が逃げ出した\n軽蔑しながら\n\n*「自分たちは五体満足だから」*`,
+      ko: `당신들의 나신을 볼 수 없었지\n성은 빨간 곳에서 무너져갔지\n가장 추하게\n\n사람들은 축복을 전혀 모르고\n헛된 영원한 삶을 영생을 믿네\n말도 안되는\n\n난 아직 죽기 이르다고\n마지못해 소리치지만 진심은 아냐\n\n모두가 불편해하는데\n어떻게 견딜수 있겠어\n위선적이야\n\n하얀 성의 공주는 기도를 했네\n그녀가 고민할때 죽어야 했네\n살이 썩은 왕자는 갇혀있었네\n그가 나타났을때 모두 피했네\n경멸하면서`,
+      en: `I could never see, your naked bodies\nThe castle crumbled down, from the reddest place\nSo gracelessly\n\nPeople know nothing about the blessings they've been given\nThey believe in idle eternal life, everlasting for them\nIt doesn't make any sense\n\nI'm screaming I can’t die just yet, only because I guess that's what I must do\nit's not what I really want\nIf no one can even stand me, how am I even supposed to bear\nIt's so hypocritical\n\nThe princess inside a white castle she prayed\nAs she started to doubt, he had to face death\nThe prince with rotting skin, hidden behind his cage\nWhen he came in their view, they all ran away\nDespising and loathing him`,
+      es: `Nunca podía ver, sus cuerpos desnudos \nEl castillo se desmenuzó, desde el lugar más rojo\nDesagradablemente\n\nLa gente no sabe nada, sobre sus bendiciones\nCreen en vacías vidas perpetuas, eternas también\nNo tiene ningún sentido\n\nGrito que ya no puedo morir, porque supongo que eso debo hacer\nPero no es lo que realmente quiero\nSi nadie puede soportarme, como debo aguantar\nEs tan hipocrita\n\nLa princesa en el castillo blanco, rezó\nCuando empezó dudar, él tuvo que morir\nEl príncipe con la piel podrida, en su jaula detenido\nCuando apareció en la vista, todo el mundo huyó\nDespreciandolo`,
+      ja: `貴方らの裸身は見えなかった\n性は赤い場所から崩れていった\n最も醜く\n\n人々は祝福を全く知らず\n虚しい永遠の命を、永生を信じている\nあり得ない\n\n俺はまだ死ぬには早いと、嫌々叫んでみても\n本心じゃない\n皆が不快に思うのに、どうやって耐えられよう\n偽善的だ\n\n白い城の姫は祈っていた\n彼女が悩むとき、彼は死ぬべきだった\n肉の腐った王子は閉じ込められていた\n彼が現れたとき、皆が逃げ出した\n軽蔑しながら`,
     },
   },
   {
@@ -445,10 +445,10 @@ const lyricsData = [
       },
     },
     theme: {
-      ko: '영화 "우리손자 베스트"에서 영감을 받아 만들었습니다. 주제는 세대간 정치적 갈등입니다.',
-      en: "Inspired by the movie 'Great Patrioteers'. The theme is political conflict between generations.",
-      es: "Inspirado en la película 'Great Patrioteers'. El tema es el conflicto político entre generaciones.",
-      ja: '영화 "우리손자 베스트"에서 영감을 받아 만들었습니다. 주제는 세대간 정치적 갈등입니다.',
+      ko: '영화 "우리손자 베스트"에서 영감을 받아 만들었습니다. 주제는 세대간 정치적 갈등입니다. 음원 중간에 나오는 아우성 소리는 대통령 탄핵 당일 발생한 시위에서 수음한 소리입니다.',
+      en: "Inspired by the movie 'Great Patrioteers'. The theme is political conflict between generations. The outcry heard in the middle of the track was recorded at a protest on the day the president was impeached.",
+      es: "Inspirado en la película 'Great Patrioteers'. El tema es el conflicto político entre generaciones. Los gritos que se oyen a mitad de la canción fueron grabados en una manifestación el día de la destitución del presidente.",
+      ja: '映画「우리손자 베스트」からインスピレーションを受けて作りました。テーマは世代間の政治的対立です。曲の途中で聞こえる叫び声は、大統領の弾劾当日に起きたデモで録音した音です。',
     },
     reference: {
       ko: "소설 삼대(염상섭), 영화 우리손자베스트(김수현), pink floyd - comfortably numb",
@@ -621,13 +621,14 @@ function renderSongs() {
           <span class="credit-item"><strong>${labels.composedBy}</strong> ${composer}</span>
         </div>
         
+        ${lyricsHtml}
+
         <div class="song-section theme-section">
           <div class="section-label">${labels.about}</div>
           <div class="theme-text">${themeText}</div>
         </div>
-        
+
         ${refHtml}
-        ${lyricsHtml}
       </div>
     `;
 
